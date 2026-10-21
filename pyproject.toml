@@ -1,0 +1,9 @@
+[project]
+name = "comfyui-desktop-bridge"
+version = "1.0.1"
+description = "Per-user outbound desktop relay for Eagle and screen capture"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.comfy]
+DisplayName = "电脑桥接 — Desktop Bridge"

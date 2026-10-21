@@ -1,0 +1,76 @@
+{
+  "native": "ComfyUI 0.39.0 / frontend 1.53.10 / CPU",
+  "tests": [
+    "registration",
+    "disabled blank native queue",
+    "authorized browser relay",
+    "fresh batch native queue",
+    "RGB pixels",
+    "vertical preview growth and stable layout",
+    "fullscreen crop and close/outside/Escape retention",
+    "full source reload from cropped output",
+    "crop prompt serialization",
+    "movable persistent launcher with viewport clamping",
+    "native cancellation with blank error policy",
+    "stop/revoke sharing",
+    "pairing dialog"
+  ],
+  "colors": [
+    [
+      38,
+      40,
+      210,
+      255
+    ],
+    [
+      42,
+      40,
+      210,
+      255
+    ],
+    [
+      46,
+      40,
+      210,
+      255
+    ]
+  ],
+  "crop": {
+    "x": 30,
+    "y": 19,
+    "width": 191,
+    "height": 117
+  },
+  "resize": {
+    "before": {
+      "size": [
+        540,
+        825
+      ],
+      "canvas": 181,
+      "root": 353,
+      "controls": 61
+    },
+    "expanded": {
+      "size": [
+        540,
+        1185
+      ],
+      "canvas": 541,
+      "root": 713,
+      "controls": 61
+    }
+  },
+  "modalCrop": {
+    "x": 40,
+    "y": 29,
+    "width": 161,
+    "height": 92
+  },
+  "outsideCrop": {
+    "x": 20,
+    "y": 14,
+    "width": 151,
+    "height": 87
+  }
+}
